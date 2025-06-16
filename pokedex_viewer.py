@@ -18,7 +18,7 @@ BASE_URL   = "https://pokeapi.co/api/v2"
 MAX_ID     = 493
 SHINY_RATE = 1 / 8192
 UK_TZ      = ZoneInfo("Europe/London")
-DEX_COLS   = 6
+DEX_COLS   = 5
 
 CACHE_DIR  = Path(os.getenv("XDG_CACHE_HOME", Path.home() / ".cache")) / "pokesprites"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
